@@ -1,0 +1,281 @@
+:root{
+    --background-color:rgb(51, 54, 58);
+    --backgroundColor-section: #e7dcdc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: var(--background-color);
+    display: flex;
+    gap: 5px;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.header-logo{
+    width: 60px;
+    height: 60px;
+}
+
+.header-h1{
+    font-size: 45px;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.section-options{
+    background-color: var(--backgroundColor-section);
+    width: 18%;
+    height: 90vh;
+}
+
+.container-options{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.options--content{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.options--content:hover{
+    background-color: #a09898;
+}
+
+.project{
+    margin-top: 20px;
+}
+
+.project h3{
+    font-size: 30px;
+    font-size: 700;
+}
+
+.project--content{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.project--content:hover{
+    background-color: #a09898;
+}
+
+footer{
+    background-color: var(--background-color);
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+/*cvambiar esto, es prueba nomas*/
+.section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section--div{
+    
+    width: 40%;
+    height: 100px;
+}
+
+.section--div-h3{
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.section--content{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.section--content:hover{
+    background-color: #a09898;
+}
+
+/*esto es contenido, reemplazar luego*/
+.contenido{
+    margin-top: 20px;
+    width: 100%;
+    display: none;
+}
+
+.contenido--input{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 5px;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add, .cancel{
+    width: 45%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.add{
+    background-color: #97e778;
+}
+
+.cancel{
+    background-color: #db9c9c;
+}
+
+.add:hover, .cancel:hover{
+    background-color: rgb(109, 96, 96)
+}
+
+
+.section--contenido{
+    width: 40%;
+    display: none;
+    margin-top: 20px;
+}
+
+.contenido--input-section{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    padding-left: 5px;
+}
+
+.section--buttons{
+    height: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section--add, .section--cancel{
+    width: 45%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.section--add{
+    background-color: #97e778;
+}
+
+.section--cancel{
+    background-color: #db9c9c;
+}
+
+.section--add:hover, .section--cancel:hover{
+    background-color: rgb(109, 96, 96)
+}
+
+
+.container--task{
+    margin-top: 10px;
+}
+
+.newTask{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.newTask:hover{
+    background-color: rgb(109, 96, 96)
+}
+
+.newImage{
+    height: 20px;
+}
+
+.newImageX{
+    margin-left: auto;
+}
+
+.container--task-section{
+    margin-top: 10px;
+}
+
+.newTaskSection{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.newTaskSection:hover{
+    background-color: rgb(109, 96, 96)
+}
+
+.newImageSection{
+    height: 20px;
+}
+
+.newImageXSection{
+    margin-left: auto;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./img/check.svg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <img src="./img/check.svg" alt="check-logo" class="header-logo">
+        <h1 class="header-h1">To do List</h1>
+    </header>
+
+    <main>
+        <section class="section-options">
+            <div class="container-options">
+                <div class="options">
+                    <div class="options--content" onclick="inbox()"><img src="./img/inbox.svg" alt="">Inbox</div>
+                    <div class="options--content" onclick="today()"><img src="./img/day.svg" alt="">Today</div>
+                    <div class="options--content" onclick="thisWeek()"><img src="./img/week.svg" alt="">This week</div>
+                </div>
+
+                <div class="project" id="project">
+                    <h3>Projects</h3>
+                    
+                    <div class="container--task" id="container--task"></div>
+
+                    <div class="project--content" id="project--content"><img src="./img/plus.svg" alt="">Add Project</div>
+                </div>
+
+                
+
+                 <div class="contenido" id="contenido">
+                    <input type="text" id="contenido--input" class="contenido--input">
+
+                    <div class="buttons">
+                        <button class="add" id="add" onclick="addTask()">Add</button>
+                        <button class="cancel" onclick="projectContentReturn()">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+             <div class="section--div">
+                <h3 class="section--div-h3" id="section--div-h3">Inbox</h3>
+
+                <div class="container--task-section" id="container--task-section"></div>
+
+                <div class="section--content" id="section--content"><img src="./img/plus.svg" alt="">Add Project</div>
+            </div>
+
+             <div class="section--contenido" id="section--contenido">
+                <input type="text" id="contenido--input-section" class="contenido--input-section">
+                <div class="section--buttons">
+                    <button class="section--add" id="section--add" onclick="addTaskSection()">Add</button>
+                    <button class="section--cancel" onclick="projectSectionContentReturn()">Cancel</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright © 2023 steven leon</p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
